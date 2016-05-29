@@ -1,0 +1,57 @@
+p {
+  font-family: times new roman;
+  font-size: 16px;
+}
+
+.sidebar {
+  float: left;
+  position: absolute;
+  width: 40%;
+  height: 100%;
+  background-color: black;
+  color: gray;
+  padding: 10px;
+}
+
+.generatedEssay {
+  float: right;
+  clear: left;
+  width: 58%;
+  padding-top:20px;
+  margin-top:20px;
+}
+.jumbotron {
+text-align:right;
+padding-right:260px;
+}
+
+#finalEssay {
+  line-height: 200%;
+}
+
+.chicagoTitleCenter{
+
+text-align:center;
+padding-bottom:300px;
+
+}
+
+.chicagoCrapCenterBottom{
+text-align:center;
+line-height:100%
+padding:0px 0px 100px 0px;
+margin:0px;
+}
+
+.chicagoCrapCenter{
+
+text-align:center;
+line-height:100%
+padding:0px;
+margin:0px;
+
+}
+
+
+
+br { font-size: 50%; }

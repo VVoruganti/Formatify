@@ -1,0 +1,71 @@
+<html>
+<head>
+<title>EasyMat</title>
+<link rel="stylesheet" type="text/css"  href="main.css" >
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script> 
+<script src="main.js"></script>
+<script src="dist/sweetalert.min.js"></script> 
+<link rel="stylesheet" type="text/css" href="dist/sweetalert.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+<link rel='shortcut icon' type='image/png href='favicon.ico' />
+</head>
+<body>
+  <div class="sidebar">
+    <form id="form">
+      <div class="form-group">
+        <label for="name">Name</label>
+        <input type="name" class="form-control" id="name" required="true"></input>
+      </div>
+      <div class="form-group">
+        <label for="teacherName">Teacher Name</label>
+        <input type="teacherName" class="form-control" id="teacherName" required="true"></input>
+      </div>
+      <div class="form-group">
+        <label>Class</label>
+        <input class="form-control" id="class" required="true"></input>
+      </div>
+      <div class="form-group">
+        <label>Date</label>
+        <input class="form-control" id="date" required="true"></input>
+      </div>
+      <div class="form-group">
+        <label>Title</label>
+        <input class="form-control" id="title" required="true"></input>
+      </div>
+      <div class="form-group">
+        <label>Paragraph</label>
+        <textarea class="form-control" rows="6" id="essay" required="true"></textarea>
+      </div>
+      <div>
+      <button type="button" class="btn btn-primary " id="MLA">MLA</button>
+      <button type="button" class="btn btn-primary " id="Chicago">Chicago</button>
+      </div>
+    </form>
+  </div>
+  <div class="jumbotron">
+  	<h1>Formatify</h1>
+  </div>
+  <div class="generatedEssay">
+    <p id="finalName">Lorem ipsum dolor</p>
+    <br>
+    <p id="finalTeacher">Lorem ipsum dolor</p>
+    <br>
+    <p id="finalClass">Lorem ipsum dolor</p>
+    <br>
+    <p id="finalDate">Lorem ipsum dolor</p>
+    <br>
+    <p id="finalTitle" class="text-center">Lorem Ipsum dolor</p>
+    <p id="finalEssay">	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    	<span id="actualEssay">
+    		Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sed egestas nisi, sed rutrum ipsum. Donec vitae viverra augue. Fusce nec scelerisque nunc. Pellentesque sed volutpat dui, viverra feugiat odio. Pellentesque lorem tortor, sodales at
+      neque at, blandit elementum lacus. Duis lectus enim, sodales et sapien vitae, ultrices semper mauris. Ut a odio in ante porttitor tristique et vitae ante. Donec viverra interdum condimentum. Sed aliquam erat quis justo ullamcorper varius. Ut mauris
+      neque, semper semper tellus quis, vulputate euismod felis. Nulla pretium vulputate odio sit amet vestibulum. Fusce tincidunt malesuada erat, a consequat eros. Donec quis ex consectetur, viverra massa eget, dictum lectus. Sed pulvinar blandit tellus,
+      aliquam tempus mi accumsan lobortis. Nunc lorem dolor, volutpat lobortis varius vitae, vestibulum id libero. Proin blandit sem massa, a mollis erat maximus non. Curabitur gravida lectus arcu, non viverra nunc commodo sed. Maecenas dignissim mauris
+      quam, at porttitor dui pulvinar sit amet. Cras placerat tortor sem, volutpat dictum mi mollis ac. Nullam sed porttitor erat. Vestibulum viverra erat metus, sit amet molestie orci venenatis nec. Nulla vel tristique purus, ut vehicula ex. In hendrerit
+      finibus fermentum. Nam justo sem, fermentum volutpat sodales eu, accumsan gravida risus. Aenean iaculis, erat id euismod venenatis, enim ipsum vulputate nisl, quis pharetra velit urna eget turpis. </p>
+    	</span>
+    </p>
+  </div>
+</body>
+
+</html>
